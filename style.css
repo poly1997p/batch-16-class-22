@@ -67,8 +67,9 @@
     transform: translate(-10px);
 }
 .feature-card img{
-    width: 80px;
+    width: 190px;
     margin-bottom: 20px;
+    height: 160px;
 }
 .feature-card h5{
     font-size: 1.3rem;
@@ -105,5 +106,13 @@
 }
 .review-custom img{
     margin-bottom: 20px;
-    width: 100px;
+   height: 90px;
+   width: 90px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+.star{
+    display: inline;
+    font-weight: 600;
+    font-size: 20px;
 }
