@@ -56,6 +56,54 @@
 }
 .feature-card{
     padding: 20px;
-    background-color: rgb(222, 219, 216);
+    background-color: rgb(207, 195, 195);
     border-radius: 20px;
+    box-shadow: 13px 9px 8px 5px rgba(0,0,0,0.1);
+    margin-bottom: 28px;
+    margin-right: 5px;
+    transition: transform 0.5s ease;
+}
+.feature-card:hover{
+    transform: translate(-10px);
+}
+.feature-card img{
+    width: 80px;
+    margin-bottom: 20px;
+}
+.feature-card h5{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    
+}
+.feature-card p{
+    font-weight: 600;
+    color:#BA002F;
+    font-size: 17px;
+}
+/* ====review-section=== */
+.review-section h2{
+   text-align: center;
+   margin-bottom: 25px;
+   font-weight: 600;
+}
+.review-custom u{
+  font-weight: 600;  
+}
+.review-custom b{
+    font-weight: 600;
+}
+.review-custom{
+    background-color: rgb(249, 247, 245);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 13px 9px 8px 5px rgb(169, 178, 186);
+    transition: transform 0.5s ease;
+}
+.review-custom:hover{
+    transform: translate(10px);
+}
+.review-custom img{
+    margin-bottom: 20px;
+    width: 100px;
 }
