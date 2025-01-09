@@ -165,3 +165,39 @@ transition: color  0.5s ease;
    
    border: none;
 }
+
+input::placeholder,
+textarea::placeholder {
+    color: red; 
+    font-size: 14px; 
+    font-style: italic; 
+}
+
+/* ===footer-responsive=== */
+@media screen and (max-width:992px){
+    .social-icons{
+        padding: 20px; 
+        text-align: center; 
+        
+    }
+}
+.checkout-section{
+    padding: 60px 0;
+}
+.checkout-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.checkout-form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(233, 221, 210);
+    box-shadow:13px 9px 8px 5px rgb(169, 178, 186);
+}
+.checkout-form .custom-input{
+padding:15px;
+margin-bottom: 15px;
+border-radius: 20px;
+}

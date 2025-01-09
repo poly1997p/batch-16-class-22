@@ -180,24 +180,32 @@
         </div>
     </section>
     <!-- ====product-checkout-form==== -->
-    <section class="mt-5" id="checkout">
+    <section class="checkout-section" id="checkout">
         <div class="container">
             <h2>Checkout</h2>
-            <form action="" method="">
+            <form action="" method="" class="checkout-form">
                 <div class="mb-3">
                     <label for="" class="form-label">Full Name*</label>
-                    <input type="text" class="form-control" name="" value="" id="" placeholder="Your full name*"
+                    <input type="text" class="form-control custom-input" name="" value="" id="" placeholder="Your full name*"
                         required>
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label">Phone Number*</label>
-                    <input type="text" class="form-control" name="" value="" id="" placeholder="Your Phone Number*"
+                    <input type="text" class="form-control custom-input" name="" value="" id="" placeholder="Your Phone Number*"
                         required>
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label">Full Address*</label>
 
-                    <textarea class="form-control" name="" id="" placeholder="Your Full Address"></textarea>
+                    <textarea class="form-control custom-input" name="" id="" placeholder="Your Full Address"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Area*</label>
+                    <select class="form-control custom-input" name="" id="">
+                        <option value="" selected disabled>Select area</option>
+                        <option value="in-dhaka">Inside dhaka (80)</option>
+                        <option value="out-dhaka">Inside dhaka (120)</option>
+                    </select>
                 </div>
                 <button type="submit" class="btn btn-warning">confirm order</button>
             </form>
@@ -206,17 +214,17 @@
     <!-- =====footer-section==== -->
     <footer class="mt-5 footer-part">
         <div class="container">
-            <div class="footer-content">
-                <div>
+            <div class="row  footer-content">
+                <div class="col-12 col-sm-6 col-md-4">
                     <img src="image/coffee1.jpg">
                     <p style="color: aliceblue;">Serving premium coffee,crafted with care</p>
                 </div>
-                <div class="contact">
+                <div class="col-12 col-sm-6 col-md-4 contact">
                     <b>Phone:0xxxxxxxxxxx</b>
                     <b>Email:Support@espressocoffee.com</b>
                     <b>Customer support:Mon-Fri,9 AM to 6 PM</b>
                 </div>
-                <div class="social-icons">
+                <div class="col-12 col-sm-6 col-md-4 social-icons">
                     <b style="color: aliceblue;">Stay connected with us on social media</b><br>
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
@@ -230,10 +238,17 @@
                 <hr class=" my-2">
             </div>
 
-            <div class="copy">
-                <p style="color: aliceblue;">&copy 2025 Espresso Coffee. All right reserved</p>
-                <b style="color: aliceblue;">Design & Develop by <a href="#">Full stack blush</a></b>
-                <b style="color: aliceblue;">"We accep: Visa,MasterCard,PayPal,and more"<br>"Secure payment guaranteed"</b>
+            <div class="row copy">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <p style="color: aliceblue;">&copy 2025 Espresso Coffee. All right reserved</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <b style="color: aliceblue;">Design & Develop by <a href="https://www.facebook.com/hiddenglw?mibextid=LQQJ4d" target="_blank">Full stack blush</a></b>
+                </div>
+               <div class="col-12 col-sm-6 col-md-4">
+                    <b style="color: aliceblue;">"We accep: Visa,MasterCard,PayPal,and more"<br>"Secure payment guaranteed"</b> 
+               </div>
+              
             </div>
             
         </div>
