@@ -117,3 +117,51 @@
     font-weight: 600;
     font-size: 20px;
 }
+.footer-part{
+    background-color:#000000 ;
+    padding: 60px 0;
+}
+.footer-part img{
+    border-radius: 90px;
+    padding-bottom: 5px;
+}
+ .contact{
+color: aliceblue;
+
+}
+.contact b{
+
+display: block;
+}
+.social b{
+    display: block;
+}
+.footer-content{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.copy{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons a{
+color: rgb(24, 245, 49);
+font-size: 1.5rem;
+padding: 5px;
+transition: color  0.5s ease;
+
+}
+
+.social-icons a:hover{
+  color: #efd806;
+  
+}
+
+.hrcls{
+    height: 1px;
+  background-color: #f8f8f8;
+   
+   border: none;
+}
