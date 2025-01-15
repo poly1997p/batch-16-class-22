@@ -384,6 +384,32 @@ margin-bottom: 15px;
 border-radius: 20px;
 }
 input::placeholder{
-    color: #3dd11b;
+    color: #d1671bcd !important;
     font-style: italic;
 }
+textarea::placeholder{
+    color: #d1671bcd !important;
+    font-style: italic;
+}
+
+.content-click strong{
+    color: rgb(226, 113, 33);
+   font-size: 50px;
+    font: large;
+   font-family: 'Great Vibes', cursive ;
+   margin-left: 20px;
+   padding-left: 30px;
+
+
+   
+}
+.content-click h4{
+    font-family: 'Great Vibes', cursive ;
+    font: large;
+    font-size: 70px;
+}
+.content-click p{
+font-size: 25px;
+
+}
+
